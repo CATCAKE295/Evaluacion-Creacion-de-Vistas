@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="tablas_de_multiplicar">Tablas de Multiplicar</string>
+    <string name="n_mero">Número</string>
+    <string name="calcular">calcular</string>
+    <string name="textview">Textview</string>
+</resources>

@@ -21,11 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         val btn = binding.btnCalc.setOnClickListener(View.OnClickListener {
 
-            var num = binding.etNumero.text.toString().toInt()
-            var tablita = Tabla(num)
+            val num = binding.etNumero.text.toString().toIntOrNull()
+            val tablita = Tabla(num)
 
             binding.tvResultado.text = tablita.tablasMultiplicar().toString()
-
+            binding.etNumero.setText("")
 
         })
 
